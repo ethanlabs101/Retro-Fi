@@ -87,3 +87,27 @@ echo $PATH
 
 If you see ~/.local/bin skip to step 4 if not, continue step 3.
 
+3a. Add the following snippet to your shell to fix PATH
+
+Bash
+
+```html
+nano ~/.bashrc
+```
+Then paste this at the end of the file
+
+```html
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+```
+Zsh
+
+```html
+nano ~/.zshrc
+```
+Then paste this at the end of the file
+
+```html
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+```
