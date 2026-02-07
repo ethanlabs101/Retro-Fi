@@ -33,7 +33,7 @@ A lightweight, keyboard-driven retro game launcher built with Rofi. Designed for
 
 > Tested on Arch Linux (Other OSes should work)
 ---
-## Installation
+## Installation ⚡
 
 1. Download Rofi (Skip to step 2 if downloaded)
 
