@@ -244,3 +244,16 @@ sudo cp ethanlabs101.png /usr/share/rofi/themes/
 ---
 
 8. Box Arts
+
+Each game can have a custom box art icon. The supported formats are .avif, .png, .jpeg, and .jpg
+
+8a. Download desired box art images and rename them so they match name of the game (ex: MarioKart.nds MarioKart.png)
+
+8b. Create the icon cache directory
+
+```html
+mkdir -p ~/.cache/rofi-game-icons
+```
+8c. Add your box art images to this directory (Make sure to follow step 8a!)
+
+> The launcher will automatically detect icons in this folder when displaying the menu.
