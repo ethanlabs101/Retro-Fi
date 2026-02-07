@@ -314,7 +314,7 @@ nano ~/.local/bin/retro-games
 
 Example:
 - Current: ["NES"]="$HOME/Games/NES:fceux:nes"
-- New: ["3DS"]="$HOME/Games/3DS:citra:nes"
+- New: ["3DS"]="$HOME/Games/3DS:citra:3ds"
 
 ---
 
