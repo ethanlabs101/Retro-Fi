@@ -281,6 +281,41 @@ Troubleshooting
 
 ---
 
+## Modification & Customization
+
+Change the background
+1. download new desired background image and rename it to ethanlabs101.png
+2. next, delete old ethanlabs.png image use:
+
+```html
+sudo rm -f /usr/share/rofi/themes/ethanlabs101.png
+```
+3. now copy new image to directory
+
+```html
+sudo cp -r ethanlabs101.png /usr/share/rofi/themes/
+```
+> Background Customization Complete!
+
+Add new emulators
+
+1. Install new emulator
+2. Open launcher script
+
+```html
+nano ~/.local/bin/retro-games
+```
+
+3. Add a new entry to the SYSTEMS array with:
+- System name
+- ROM/Game path
+- Emulator name
+- Supported file extensions
+
+Example:
+- Current: ["NES"]="$HOME/Games/NES:fceux:nes"
+- New: ["3DS"]="$HOME/Games/3DS:citra:nes"
+
 ---
 
 ## 📜 License
