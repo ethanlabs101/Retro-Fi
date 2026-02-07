@@ -18,7 +18,7 @@
 - Custom theme isolated from global Rofi config
 - Currently Supports (GBA, GBC, GB, DS, SNES, NES, and SEGA GENESIS)
 ---
-## Requirements / Dependencies
+## Requirements / Dependencies 🔧
 - Rofi
 - Bash
 - Flatpak (for mGBA to run GBA, GBC, GB)
@@ -27,5 +27,5 @@
 - snes9x (for SNES)
 - desmume (for DS)
 
-> Tested on Arch Linux ( Other OSes should work)
+> Tested on Arch Linux (Other OSes should work)
 ---
