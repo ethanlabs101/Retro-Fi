@@ -111,3 +111,32 @@ Then paste this at the end of the file
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
 ```
+4. Install Flathub (If already installed skip to step 5)
+
+This retro gaming rofi launcher currently utilizes flatpak for mGBA so it can run GBA, GBC and GB. If you dont want to use any of these systems feel free to skip ahead and if not please follow along. Also, emulators are configurable see the [Modifications] Page on how to add or change emulators to your configs. 
+
+Arch / Manjaro
+
+```html
+sudo pacman -S flatpak
+```
+
+Debian / Ubuntu
+
+```html
+sudo apt install flatpak
+```
+
+Fedora
+
+```html
+sudo dnf install flatpak
+```
+
+Now install flathub
+
+```html
+sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+
+5. Install Emulators
