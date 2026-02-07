@@ -57,3 +57,33 @@ sudo dnf install rofi
 
 > Note: If your rofi build does not support icons box art will not show, please download the most recent version for best user experience.
 
+2. Install the launcher script
+
+   2a. Make ~/.local/bin directory for script (if exists skip to step 2b.)
+
+```html
+mkdir -p ~/.local/bin
+```
+   2b. Download retro-games script from this repo 
+
+   2c. Copy retro-games and move it to ~/.local/bin directory
+   
+```html
+cp retro-games ~/.local/bin
+```
+   2d. Make retro-games script executable
+   
+```html
+chmod +x ~/.local/bin/retro-games
+```
+
+3. Verify ~/.local/bin is in your PATH
+
+Run:
+
+```html
+echo $PATH
+```
+
+If you see ~/.local/bin skip to step 4 if not, continue step 3.
+
