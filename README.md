@@ -57,6 +57,8 @@ sudo dnf install rofi
 
 > Note: If your rofi build does not support icons box art will not show, please download the most recent version for best user experience.
 
+---
+
 2. Install the launcher script
 
 2a. Make ~/.local/bin directory for script (if exists skip to step 2b.)
@@ -76,6 +78,8 @@ cp retro-games ~/.local/bin
 ```html
 chmod +x ~/.local/bin/retro-games
 ```
+
+---
 
 3. Verify ~/.local/bin is in your PATH
 
@@ -111,6 +115,8 @@ Then paste this at the end of the file
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
 ```
+---
+
 4. Install Flathub (If already installed skip to step 5)
 
 This retro gaming rofi launcher currently utilizes flatpak for mGBA so it can run GBA, GBC and GB. If you dont want to use any of these systems feel free to skip ahead and if not please follow along. Also, emulators are configurable see the [Modifications] Page on how to add or change emulators to your configs. 
@@ -138,6 +144,7 @@ Now install flathub
 ```html
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
+---
 
 5. Install Emulators
 
@@ -184,3 +191,7 @@ sudo dnf install libretro-genesis-plus-gx
 ```html
 flatpak install flathub io.mgba.mGBA
 ```
+
+---
+
+6. Organize Game ROMs
