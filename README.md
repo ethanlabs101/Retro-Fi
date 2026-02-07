@@ -6,3 +6,4 @@
 
 ---
 
+![rofi-image](https://github.com/ethanlabs101/rofi-emulator-menu/blob/main/rofi-emulator-menu.png)
