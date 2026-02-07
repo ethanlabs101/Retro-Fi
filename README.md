@@ -66,7 +66,7 @@ sudo dnf install rofi
 ```html
 mkdir -p ~/.local/bin
 ```
-2b. Download retro-games script from this repo 
+2b. Download retro-games script from this repo and rename it to retro-games without .txt or .sh extension
 
 2c. Copy retro-games and move it to ~/.local/bin directory
    
