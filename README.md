@@ -115,7 +115,7 @@ source ~/.zshrc
 
 This retro gaming rofi launcher currently utilizes flatpak for mGBA so it can run GBA, GBC and GB. If you dont want to use any of these systems feel free to skip ahead and if not please follow along. Also, emulators are configurable see the [Modifications] Page on how to add or change emulators to your configs. 
 
-Arch / Manjaro
+Arch
 
 ```html
 sudo pacman -S flatpak
@@ -140,3 +140,47 @@ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 ```
 
 5. Install Emulators
+
+This rofi emulator menu supports multiple emulators. They must be installed in the specified ways to work properly.
+
+- Arch
+
+```html
+sudo pacman -S snes9x fceux desmume retroarch
+```
+
+```html
+sudo pacman -S retroarch libretro-genesis-plus-gx
+```
+
+```html
+flatpak install flathub io.mgba.mGBA
+```
+
+- Debian / Ubuntu
+
+```html
+sudo apt install snes9x fceux desmume retroarch
+```
+
+```html
+sudo apt install libretro-genesis
+```
+
+```html
+flatpak install flathub io.mgba.mGBA
+```
+
+- Fedora
+
+```html
+sudo dnf install snes9x fceux desmume retroarch
+```
+
+```html
+sudo dnf install libretro-genesis-plus-gx
+```
+
+```html
+flatpak install flathub io.mgba.mGBA
+```
