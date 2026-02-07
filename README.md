@@ -35,7 +35,7 @@ A lightweight, keyboard-driven retro game launcher built with Rofi. Designed for
 ---
 ## Installation
 
- 1. Download Rofi (Skip to step 2 if downloaded)
+1. Download Rofi (Skip to step 2 if downloaded)
 
 Arch
 
@@ -59,19 +59,19 @@ sudo dnf install rofi
 
 2. Install the launcher script
 
-   2a. Make ~/.local/bin directory for script (if exists skip to step 2b.)
+2a. Make ~/.local/bin directory for script (if exists skip to step 2b.)
 
 ```html
 mkdir -p ~/.local/bin
 ```
-   2b. Download retro-games script from this repo 
+2b. Download retro-games script from this repo 
 
-   2c. Copy retro-games and move it to ~/.local/bin directory
+2c. Copy retro-games and move it to ~/.local/bin directory
    
 ```html
 cp retro-games ~/.local/bin
 ```
-   2d. Make retro-games script executable
+2d. Make retro-games script executable
    
 ```html
 chmod +x ~/.local/bin/retro-games
