@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# ---------------- NAV STATE (NEW) ----------------
+NAV_MODE="ROOT"        # ROOT or SYSTEM
+ACTIVE_SYSTEM=""
+
 # Retro systems: folder : emulator : extensions
 declare -A SYSTEMS
 SYSTEMS=(
@@ -38,26 +42,75 @@ SYSTEMS=(
     ["VB"]="$HOME/Games/VIRTUALBOY:retroarch -L /usr/lib/libretro/mednafen_vb_libretro.so:vb"
     ["COM64"]="$HOME/Games/COMMODORE-64:retroarch -L /usr/lib/libretro/vice_x64_libretro.so:d64,tap,prg"
     ["PS2"]="$HOME/Games/PS2:flatpak run net.pcsx2.PCSX2:iso"
-    # XBOX = manual launch only
     ["XBOX-BOOT-XEMU"]="$HOME/Games/XBOX:flatpak run app.xemu.xemu:none"
     ["PSP"]="$HOME/Games/PSP:flatpak run org.ppsspp.PPSSPP:iso,cso,pbp"
     ["GC"]="$HOME/Games/GAMECUBE:dolphin-emu:iso,ciso,nkit.iso,rvz"
     ["WII"]="$HOME/Games/WII:dolphin-emu:wbfs,iso,rvz"
     ["3DS"]="$HOME/Games/3DS:flatpak run org.citra_emu.citra:3ds,cia,cci"
+    ["Theme-Editor"]="$HOME:$HOME/.local/bin/run-theme-editor.sh:none"
+)
+
+# Explicit order for display
+SYSTEM_ORDER=(
+    "Theme-Editor"
+    "SNES"
+    "NES"
+    "DS"
+    "GBA"
+    "GBC"
+    "GB"
+    "GENESIS"
+    "SMS"
+    "GAMEGEAR"
+    "SG-1000"
+    "SEGA-CD"
+    "SEGA-32X"
+    "SATURN"
+    "DREAMCAST"
+    "PS1"
+    "N64"
+    "INTEL"
+    "COLECO"
+    "NEOGEOPOCKET"
+    "NEOGEO"
+    "POKEMINI"
+    "WONDERSWAN"
+    "TURBOGRAFX"
+    "CD-I"
+    "AMSTRADCPC"
+    "NEOGEOMVS"
+    "ATARI2600"
+    "ATARI5200"
+    "ATARI7800"
+    "LYNX"
+    "JAGUAR"
+    "JAGUAR-CD"
+    "VB"
+    "COM64"
+    "PS2"
+    "XBOX-BOOT-XEMU"
+    "PSP"
+    "GC"
+    "WII"
+    "3DS"
 )
 
 ICON_DIR="$HOME/.cache/rofi-game-icons"
 ICON_EXTS=(avif png jpeg jpg)
-entries=""
 
-for system in "${!SYSTEMS[@]}"; do
-    IFS=":" read -r rom_dir emulator exts <<< "${SYSTEMS[$system]}"
+while true; do
+    entries=""
 
-    # Skip systems without folders
-    [[ ! -d "$rom_dir" ]] && continue
+    # -------- ROOT VIEW --------
+    if [[ "$NAV_MODE" == "ROOT" ]]; then
+    for system in "${SYSTEM_ORDER[@]}"; do
+        [[ -z "${SYSTEMS[$system]}" ]] && continue  # skip if system doesn't exist
 
-    # ---- MANUAL SYSTEM (XBOX) ----
-    if [[ "$exts" == "none" ]]; then
+        IFS=":" read -r rom_dir emulator exts <<< "${SYSTEMS[$system]}"
+
+        # Skip missing folders (except tools)
+        [[ "$exts" != "none" && ! -d "$rom_dir" ]] && continue
+
         icon=""
         for iext in "${ICON_EXTS[@]}"; do
             [[ -f "$ICON_DIR/$system.$iext" ]] && icon="$ICON_DIR/$system.$iext" && break
@@ -68,49 +121,63 @@ for system in "${!SYSTEMS[@]}"; do
         else
             entries+="$system\n"
         fi
+    done
+fi
+    # -------- SYSTEM VIEW --------
+    if [[ "$NAV_MODE" == "SYSTEM" ]]; then
+        entries+="⟵ Back\n"
+
+        IFS=":" read -r rom_dir emulator exts <<< "${SYSTEMS[$ACTIVE_SYSTEM]}"
+
+        for ext in ${exts//,/ }; do
+            for rom in "$rom_dir"/*.$ext; do
+                [[ -e "$rom" ]] || continue
+
+                name=$(basename "$rom")
+                base="${name%.*}"
+
+                icon=""
+                for iext in "${ICON_EXTS[@]}"; do
+                    [[ -f "$ICON_DIR/$base.$iext" ]] && icon="$ICON_DIR/$base.$iext" && break
+                done
+
+                if [[ -n "$icon" ]]; then
+                    entries+="$name\0icon\x1f$icon\n"
+                else
+                    entries+="$name\n"
+                fi
+            done
+        done
+    fi
+
+    ROFI_THEME="${ROFI_THEME:-$HOME/.config/rofi/game-theme/ethanlabs101.rasi}"
+    selected=$(printf "%b" "$entries" | rofi -dmenu -theme "$ROFI_THEME" -p "Retro Games" -show-icons)
+    [[ -z "$selected" ]] && exit
+
+    # ---- BACK ----
+    [[ "$selected" == "⟵ Back" ]] && NAV_MODE="ROOT" && ACTIVE_SYSTEM="" && continue
+
+    # ---- TOOLS (ROOT ONLY) ----
+    if [[ "$NAV_MODE" == "ROOT" && "$selected" == "XBOX-BOOT-XEMU" ]]; then
+        exec flatpak run app.xemu.xemu
+    fi
+
+    if [[ "$NAV_MODE" == "ROOT" && "$selected" == "Theme-Editor" ]]; then
+        exec "$HOME/.local/bin/run-theme-editor.sh"
+    fi
+
+    # ---- ENTER SYSTEM ----
+    if [[ "$NAV_MODE" == "ROOT" ]]; then
+        NAV_MODE="SYSTEM"
+        ACTIVE_SYSTEM="$selected"
         continue
     fi
 
-    # ---- NORMAL ROM SYSTEMS ----
+    # ---- LAUNCH GAME ----
+    IFS=":" read -r rom_dir emulator exts <<< "${SYSTEMS[$ACTIVE_SYSTEM]}"
     for ext in ${exts//,/ }; do
         for rom in "$rom_dir"/*.$ext; do
-            [[ -e "$rom" ]] || continue
-
-            name=$(basename "$rom")
-            base="${name%.*}"
-
-            icon=""
-            for iext in "${ICON_EXTS[@]}"; do
-                [[ -f "$ICON_DIR/$base.$iext" ]] && icon="$ICON_DIR/$base.$iext" && break
-            done
-
-            if [[ -n "$icon" ]]; then
-                entries+="$system - $name\0icon\x1f$icon\n"
-            else
-                entries+="$system - $name\n"
-            fi
+            [[ "$(basename "$rom")" == "$selected" ]] && exec $emulator "$rom"
         done
-    done
-done
-
-ROFI_THEME="${ROFI_THEME:-$HOME/.config/rofi/game-theme/ethanlabs101.rasi}"
-
-selected=$(printf "%b" "$entries" | rofi -dmenu -theme "$ROFI_THEME" -p "Retro Games" -show-icons)
-[[ -z "$selected" ]] && exit
-
-# If XBOX selected → just launch XEMU
-if [[ "$selected" == "XBOX-BOOT-XEMU" ]]; then
-    exec flatpak run app.xemu.xemu
-fi
-
-# Normal ROM launch
-system_name="${selected%% - *}"
-game_name="${selected#* - }"
-
-IFS=":" read -r rom_dir emulator exts <<< "${SYSTEMS[$system_name]}"
-
-for ext in ${exts//,/ }; do
-    for rom in "$rom_dir"/*.$ext; do
-        [[ "$(basename "$rom")" == "$game_name" ]] && exec $emulator "$rom"
     done
 done
