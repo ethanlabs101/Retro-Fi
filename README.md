@@ -242,7 +242,7 @@ Some systems use:
 - Native package manager installs (pacman / dnf /apt)
 - Flatpak (via Flathub)
 - RetroArch cores (terminal or manual buildbot install)
-- ➡️ See the full setup guide here: [Emulator Setup Guide]()
+- ➡️ See the full setup guide here: [Emulator Setup Guide](https://github.com/ethanlabs101/Retro-Fi/blob/main/emulator-setup.md)
 
 ---
 
