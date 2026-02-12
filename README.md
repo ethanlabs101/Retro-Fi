@@ -272,20 +272,30 @@ Alternatively, you can launch the script inside the Rofi menu by selecting the U
 
 9. First Launch and Testing
 
-Once all steps have been followed thoroughly run the command: retro-games
+Once all steps have been followed thoroughly run the command:
+
+```html
+retro-games
+```
 
 - The retro games menu should appear with the custom theme.
-- Navigate with arrow keys or search for a game.
+- Custom console icons should display.
+- Navigate with arrow keys or search for a console , select console, then search for a game.
 - The selected game will display a dark grey background behind the selected entry.
 - Selecting a game should launch it with the correct emulator.
-
+- Select Theme editor to edit theme and text.
+- Launch a game then close and select Recently Played to return to your game.
+- Select Update favorites to edit your favorites list.
+- Select Favorites List to view and launch your current favorite games.
+- Select Upload Boxart to upload your boxart to the cache.
+ 
 ---
 
 Troubleshooting
 
 - Menu appears empty: Check that your ~/Games directory exists and contains correct folders and ROMs
-- Icons missing: make sure box are images are in ~/.cache/rofi-game-icons and named exactly like ROM file (Minus game extension)
-- Emulator not launching: verify the emulators are install with the command: which emulator (example: which fceux)
+- Icons missing: make sure box art images are in ~/.cache/rofi-game-icons and named exactly like ROM file (Minus game extension)
+- Emulator not launching: verify the emulators are installed with the command: which emulator (example: which fceux)
 
 > Once confirmed , consider adding a keybind to your WM or DE to launch the menu instantly, or type retro-games in terminal for easy access.
 
