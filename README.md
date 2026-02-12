@@ -27,12 +27,12 @@ Check out the [CONSOLE LIST](link-to-console-list.md) for the full supported lis
 Automatic ROM *and save file symlinks* for smooth game launching.  
 
 🎨 Theme Editor  
-Customize *backgrounds, text, and ASCII art*, fully integrated into Retro-Fi.  
+Customize *backgrounds, and text*, fully integrated into Retro-Fi.  
 
 🖼️ Box art refresh tool  
 Refresh and manage your box art cache with ease.  
 
-🖌️ Ships with high-quality console PNGs  
+🖌️ Ships with high-quality console PNG Icons  
 *All with transparent backgrounds* for a sleek UI.  
 
 🗂️ Custom console → games folder structure  
