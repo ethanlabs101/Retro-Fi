@@ -17,12 +17,42 @@
 ---
 ## Features 📋
 
-- A clean lightweight Rofi-based retro game launcher
-- Custom .rasi Rofi theme
-- 6x4 transparent grid layout with box arts & description
-- Per-system and per-game search method
-- Custom theme isolated from global Rofi config
-- Currently Supports (GBA, GBC, GB, DS, SNES, NES, and SEGA GENESIS)
+✨ Easy plug-and-play setup  
+Clone directly to ~ and start playing immediately — no complex installation needed.  
+
+🎮 Compatible with 30+ retro consoles  
+Check out the [CONSOLE LIST](link-to-console-list.md) for the full supported list.  
+
+⭐️ Favorites management  
+Automatic ROM *and save file symlinks* for smooth game launching.  
+
+🎨 Theme Editor  
+Customize *backgrounds, text, and ASCII art*, fully integrated into Retro-Fi.  
+
+🖼️ Box art refresh tool  
+Refresh and manage your box art cache with ease.  
+
+🖌️ Ships with high-quality console PNGs  
+*All with transparent backgrounds* for a sleek UI.  
+
+🗂️ Custom console → games folder structure  
+Keeps your library organized and clean.  
+
+🎨 Custom `.rasi` Rofi theme  
+Designed for Retro-Fi, fully included.  
+
+🖥️ 6x4 transparent grid layout  
+Displays *box arts & game descriptions* in a visually appealing way.  
+
+🔍 Per-system and per-game search method  
+Quickly find and launch any title in your library.  
+
+🎨 Custom theme isolated from global Rofi config  
+Safe to tweak without affecting other Rofi setups.  
+
+💻 Written entirely in pure Bash  
+*Minimal dependencies, fully transparent, and modifiable*.
+
 ---
 ## Requirements / Dependencies 🔧
 - Rofi
