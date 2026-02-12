@@ -203,9 +203,9 @@ Run:
 echo $PATH | grep -q "$HOME/.local/bin" && echo "PATH is OK" || echo "PATH missing ~/.local/bin"
 ```
 
-If you see ~/.local/bin skip to step 4 if not, continue step 3.
+If you see ~/.local/bin skip to step 7 if not, continue step 6a.
 
-3a. Add the following snippet to your shell to fix PATH
+- 6a. Add the following snippet to your shell to fix PATH
 
 If your shell is Bash use:
 
@@ -231,7 +231,7 @@ source ~/.zshrc
 ```
 ---
 
-5. Install Emulators
+7. Install Emulators
 
 This rofi emulator menu supports multiple emulators. They must be installed in the specified ways to work properly.
 
