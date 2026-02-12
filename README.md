@@ -62,7 +62,8 @@ To run Retro-Fi, your system should have the following installed:
 - Git - to clone this repository
 - Bash – version 5.x recommended  
 - Rofi – for the graphical menu interface  
-- Flatpak – for certain emulators and runtime support  
+- Flatpak – for certain emulators and runtime support
+- Flathub - via flatapk to be able to install emulators
 - RetroArch – for multi-system emulation support  
 
 ### Optional / System Emulators
@@ -119,7 +120,69 @@ git clone https://github.com/ethanlabs101/Retro-Fi.git ~
 
 ---
 
-## 3. Make scripts executable
+## 3. Install system dependencies
+
+- Arch
+
+```html
+sudo pacman -S rofi flatpak retroarch
+```
+
+- Ubuntu/Debian
+
+```html
+sudo apt install rofi flatpak retroarch
+```
+
+- Fedora
+
+```html
+sudo dnf install rofi flatpak retroarch
+```
+
+- Install flathub via flatpak
+
+```html
+sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+
+---
+
+## 4. Add Rofi theme + backgrounds & system icons (Requires sudo)
+
+- Create the directory for the backgrounds/system icons if it doesnt exist
+
+```html
+sudo mkdir -p /usr/share/rofi/themes/
+```
+
+- Move the main current background
+
+```html
+sudo cp ~/ethanlabs101.png /usr/share/rofi/themes/
+```
+
+- Copy all extra backgrounds & system icons
+
+```html
+sudo cp -r ~/backgrounds /usr/share/rofi/themes
+```
+
+- Make directory for rofi theme file
+
+```html
+mkdir ~/.config/rofi/game-theme
+```
+
+- Copy Rofi theme file 
+
+```html
+cp ~/ethanlabs101.rasi ~/.config/rofi/game-theme
+```
+
+---
+
+## 5. Make scripts executable
 
 ```html
 chmod +x ~/.local/bin/retro-games
@@ -129,97 +192,15 @@ chmod +x ~/.local/bin/run-favorites-update.sh
 chmod +x ~/.local/share/retro-games/favorites/retro-favorites-update.sh
 chmod +x ~/.local/bin/retrofi-boxart-refresh.sh
 ```
----
-
-## 4. Install core dependencies
-
-- ## 4a. Download Rofi (Skip to step 4b if downloaded)
-
-- Arch
-
-```html
-sudo pacman -S rofi
-```
-
-- Debian/Ubuntu
-
-```html
-sudo apt install rofi
-```
-
-- Fedora 
-
-```html
-sudo dnf install rofi
-```
-
-> Note: If your rofi build does not support icons box art will not show, please download the most recent version for best user experience.
 
 ---
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2. Install the launcher script
-
-2a. Make ~/.local/bin directory for script (if exists skip to step 2b.)
-
-```html
-mkdir -p ~/.local/bin
-```
-2b. Download retro-games script from this repo and rename it to retro-games without .txt or .sh extension
-
-2c. Copy retro-games and move it to ~/.local/bin directory
-   
-```html
-cp retro-games ~/.local/bin
-```
-2d. Make retro-games script executable
-   
-```html
-chmod +x ~/.local/bin/retro-games
-```
-
----
-
-3. Verify ~/.local/bin is in your PATH
+## 6. Verify ~/.local/bin is in your PATH
 
 Run:
 
 ```html
-echo $PATH
+echo $PATH | grep -q "$HOME/.local/bin" && echo "PATH is OK" || echo "PATH missing ~/.local/bin"
 ```
 
 If you see ~/.local/bin skip to step 4 if not, continue step 3.
@@ -247,35 +228,6 @@ Then paste this at the end of the file
 ```html
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
 source ~/.zshrc
-```
----
-
-4. Install Flathub (If already installed skip to step 5)
-
-This retro gaming rofi launcher currently utilizes flatpak for mGBA so it can run GBA, GBC and GB. If you dont want to use any of these systems feel free to skip ahead and if not please follow along. Also, emulators are configurable see the [modifications](https://github.com/ethanlabs101/rofi-emulator-menu?tab=readme-ov-file#modification--customization) section at the end of this ReadME on how to add or change emulators to your configs. 
-
-Arch
-
-```html
-sudo pacman -S flatpak
-```
-
-Debian / Ubuntu
-
-```html
-sudo apt install flatpak
-```
-
-Fedora
-
-```html
-sudo dnf install flatpak
-```
-
-Now install flathub
-
-```html
-sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 ---
 
