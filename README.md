@@ -78,13 +78,13 @@ To run Retro-Fi, your system should have the following installed:
 
 ---
 
-## Installation ⚡
-
----
-
 # ⚠️ WARNING: This repository is designed to be cloned directly into your home directory (~). 
 # All scripts, assets, and caches rely on this explicit structure. Cloning elsewhere may break Retro-Fi. 
 # Please read the documentation before running any setup scripts.
+
+---
+
+## Installation ⚡
 
 ---
 
