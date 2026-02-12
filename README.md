@@ -54,14 +54,25 @@ Safe to tweak without affecting other Rofi setups.
 *Minimal dependencies, fully transparent, and modifiable*.
 
 ---
-## Requirements / Dependencies 🔧
-- Rofi
-- Bash
-- Flatpak (for mGBA to run GBA, GBC, GB)
-- RetroArch (for Sega Genesis, requires genesis core)
-- fceux (for NES)
-- snes9x (for SNES)
-- desmume (for DS)
+## Requirements & Dependencies ⚙️
+
+To run Retro-Fi, your system should have the following installed:
+
+### Core Dependencies
+- Bash – version 5.x recommended  
+- Rofi – for the graphical menu interface  
+- Flatpak – for certain emulators and runtime support  
+- RetroArch – for multi-system emulation support  
+
+### Optional / System Emulators
+- Various retro emulators are optional and depend on which consoles you want to use:  
+  - Some are installed via your terminal package manager (apt, pacman, etc.).  
+  - Others require Flatpak.  
+  - Some use RetroArch cores (downloadable via terminal or [buildbot.libretro.com](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)).
+  - Some systems (e.g., PS1, PS2, Sega CD, XBOX) require BIOS files for proper emulation.  
+
+> ⚠️ Retro-Fi itself does not install emulators automatically. Make sure the emulators you intend to use are installed and accessible via your PATH or Flatpak.  
+> Favorites, box art, and launch functionality require the corresponding emulator to be present for the selected system.
 
 > Tested on Arch Linux (Other OSes should work)
 
