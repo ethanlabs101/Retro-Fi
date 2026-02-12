@@ -12,7 +12,11 @@
 
 ---
 
-![rofi-image](https://github.com/ethanlabs101/Retro-Fi/blob/main/retro-fi-home.png)
+![rofi-image1](https://github.com/ethanlabs101/Retro-Fi/blob/main/retro-fi-home.png)
+
+![rofi-image2](https://github.com/ethanlabs101/Retro-Fi/blob/main/retro-fi-home2.png)
+
+![rofi-image3](https://github.com/ethanlabs101/Retro-Fi/blob/main/retrofi-gbamenu.png)
 
 ---
 ## Features 📋
