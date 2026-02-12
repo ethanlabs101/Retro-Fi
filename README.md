@@ -301,8 +301,53 @@ retro-games
 
 ---
 
-## Modification & Customization
+## Modifications & Customization 🎨
 
+RetroFi ships modular. Each component can be customized independently.
+
+### 🖌 [Theme Editor](./docs/THEME_EDITOR.md)
+Interactive helper script that allows:
+- Background switching
+- Text color adjustments
+- Layout tweaks
+- Custom Rofi styling changes
+
+Does not modify your global Rofi configuration.
+
+---
+
+### 🌌 [Backgrounds](./docs/BACKGROUNDS.md)
+RetroFi includes:
+- High-quality stock backgrounds
+- Translucent console PNG system icons
+- Support for user-added backgrounds
+
+Background assets are located in:
+/usr/share/rofi/themes/backgrounds/
+
+You can add your own PNG files and select them using the Theme Editor.
+
+---
+
+### ⭐️ [Favorites Updater](./docs/FAVORITES.md)
+Manages:
+- Favorites list generation
+- ROM symlink creation
+- Save file linking (where supported)
+
+Keeps your favorites structured without duplicating ROM data.
+
+---
+
+### 🖼 [Boxart Uploader](./docs/BOXART.md)
+Refresh tool that:
+- Pulls images from ~/Pictures/retro-games
+- Updates RetroFi cache
+- Cleans invalid entries
+- Preserves naming structure
+
+Supports:
+.png, .jpg, .jpeg, .webp, .avif
 
 ---
 
