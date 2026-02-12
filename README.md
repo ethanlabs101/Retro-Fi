@@ -159,13 +159,13 @@ sudo mkdir -p /usr/share/rofi/themes/
 - Move the main current background
 
 ```html
-sudo cp ~/ethanlabs101.png /usr/share/rofi/themes/
+sudo cp ~/retro-fi.png /usr/share/rofi/themes/
 ```
 
 - Copy all extra backgrounds & system icons
 
 ```html
-sudo cp -r ~/backgrounds /usr/share/rofi/themes
+sudo cp -r ~/retro-fi-backgrounds /usr/share/rofi/themes
 ```
 
 - Make directory for rofi theme file
@@ -177,7 +177,7 @@ mkdir ~/.config/rofi/game-theme
 - Copy Rofi theme file 
 
 ```html
-cp ~/ethanlabs101.rasi ~/.config/rofi/game-theme
+cp ~/retro-fi.rasi ~/.config/rofi/game-theme
 ```
 
 ---
