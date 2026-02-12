@@ -264,47 +264,8 @@ Then run the boxart uploader script:
 
 Alternatively, you can launch the script inside the Rofi menu by selecting the Upload Boxart option.
 
----
-
-7. Install the Rofi Theme
-
-This retro games launcher uses a custom Rofi theme stored seperately so your global Rofi config remains untouched.
-
-7a. Create the theme directory
-
-```html
-mkdir -p ~/.config/rofi/game-theme
-```
-7b. Download the theme file from this repo (ethanlabs101.rasi)
-
-7c. Copy the theme file to correct directory for script
-
-```html
-cp ethanlabs101.rasi ~/.config/rofi/game-theme/
-```
-7d. Download the theme background image from this repo (ethanlabs101.png)
-
-7e. Copy the background image to correct directory
-
-```html
-sudo cp ethanlabs101.png /usr/share/rofi/themes/
-```
----
-
-8. Box Arts
-
-Each game can have a custom box art icon. The supported formats are .avif, .png, .jpeg, and .jpg
-
-8a. Download desired box art images and rename them so they match name of the game (ex: MarioKart.nds MarioKart.png)
-
-8b. Create the icon cache directory
-
-```html
-mkdir -p ~/.cache/rofi-game-icons
-```
-8c. Add your box art images to this directory (Make sure to follow step 8a!)
-
-> The launcher will automatically detect icons in this folder when displaying the menu.
+> The supported formats are .avif, .png, .jpeg, and .jpg
+> Boxart names much match the game name exactly minus extension. (ex. MarioKartDS.nds MarioKartDS.png)
 
 ---
 
