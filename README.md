@@ -89,7 +89,27 @@ To run Retro-Fi, your system should have the following installed:
 
 ---
 
-## 1. Clone this repository directly to your home directory
+## 1. Install Git (If not already installed - if installed skip to step 2)
+
+- Arch
+
+```html
+sudo pacman -S git
+```
+- Ubuntu/Debian
+
+```html
+sudo apt update && sudo apt install git
+```
+- Fedora
+
+```html
+sudo dnf install git
+```
+
+---
+
+## 2. Clone this repository directly to your home directory
 
 ```html
 git clone https://github.com/ethanlabs101/Retro-Fi.git ~
@@ -97,7 +117,9 @@ git clone https://github.com/ethanlabs101/Retro-Fi.git ~
 
 > ⚠️ Retro-Fi expects the directory structure to match ~/Games/<Console> for full functionality.
 
-## 2. Make scripts executable
+---
+
+## 3. Make scripts executable
 
 ```html
 chmod +x ~/.local/bin/retro-games
@@ -107,9 +129,33 @@ chmod +x ~/.local/bin/run-favorites-update.sh
 chmod +x ~/.local/share/retro-games/favorites/retro-favorites-update.sh
 chmod +x ~/.local/bin/retrofi-boxart-refresh.sh
 ```
+---
 
-## 3. Install core dependencies
+## 4. Install core dependencies
 
+## 4a. Download Rofi (Skip to step 4b if downloaded)
+
+- Arch
+
+```html
+sudo pacman -S rofi
+```
+
+- Debian/Ubuntu
+
+```html
+sudo apt install rofi
+```
+
+- Fedora 
+
+```html
+sudo dnf install rofi
+```
+
+> Note: If your rofi build does not support icons box art will not show, please download the most recent version for best user experience.
+
+---
 
 
 
