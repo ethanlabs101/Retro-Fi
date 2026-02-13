@@ -39,7 +39,7 @@
 ## Features 📋
 
 ✨ Easy plug-and-play setup  
-Clone directly to ~ and start playing immediately — no complex installation needed.  
+Clone and start playing immediately — no complex installation needed.  
 
 🎮 Compatible with 35+ retro consoles  
 Check out the [CONSOLE LIST](https://github.com/ethanlabs101/Retro-Fi/blob/main/retro-fi-mds/console-list.md) for the full supported list.  
@@ -148,7 +148,7 @@ sudo dnf install git
 ## 2. Clone this repository directly to your home directory
 
 ```html
-git clone https://github.com/ethanlabs101/Retro-Fi.git ~
+git clone https://github.com/ethanlabs101/Retro-Fi.git ~/retro-fi-tmp
 ```
 
 > ⚠️ Retro-Fi expects the directory structure to match for full functionality.
@@ -160,16 +160,16 @@ git clone https://github.com/ethanlabs101/Retro-Fi.git ~
 Run the following commands:
 
 ```html
-cd
+cd ~/retro-fi-tmp
 ```
 ```html
-mv ~/local ~/.local
+mv local ~/.local
 ```
 ```html
-mv ~/config ~/.config
+mv config ~/.config
 ```
 ```html
-mv ~/cache ~/.cache
+mv cache ~/.cache
 ```
 
 ---
