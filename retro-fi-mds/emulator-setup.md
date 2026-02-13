@@ -225,16 +225,72 @@ sudo pacman -S libretro-genesis-plus-gx
 ---
 
 ## Sega-CD
-<!-- Fill in installation instructions here -->
+- Emulator - RetroArch
+- Core - picodrive_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed locally via package manager
+- ROM Extensions: cue, iso, zip
+
+Arch Installation
+ 
+```html
+sudo pacman -S libretro-picodrive
+```
+> Note: Commands are tested on Arch Linux. If you are on another distribution, please use your package manager.
+
+---
 
 ## Sega 32X
-<!-- Fill in installation instructions here -->
+- Emulator - RetroArch
+- Core - picodrive_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed locally via package manager
+- ROM Extensions: 32x, bin, zip
+
+Arch Installation
+ 
+```html
+sudo pacman -S libretro-picodrive
+```
+> Note: Commands are tested on Arch Linux. If you are on another distribution, please use your package manager.
+
+---
 
 ## Sega Saturn
-<!-- Fill in installation instructions here -->
+- Emulator - RetroArch
+- Core - yabause_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed locally via package manager
+- ROM Extensions: cue, iso, zip
+
+Arch Installation
+ 
+```html
+sudo pacman -S libretro-yabause
+```
+> Note: Commands are tested on Arch Linux. If you are on another distribution, please use your package manager.
+
+---
 
 ## Sega Dreamcast
-<!-- Fill in installation instructions here -->
+- Emulator - RetroArch
+- Core - flycast_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed locally via package manager
+- ROM Extensions: cue, iso, zip
+
+Arch Installation
+ 
+```html
+sudo pacman -S libretro-flycast
+```
+> Note: Commands are tested on Arch Linux. If you are on another distribution, please use your package manager.
+
+---
 
 ## PlayStation 1
 <!-- Fill in installation instructions here -->
