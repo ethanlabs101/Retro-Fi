@@ -26,7 +26,7 @@
 Clone directly to ~ and start playing immediately — no complex installation needed.  
 
 🎮 Compatible with 30+ retro consoles  
-Check out the [CONSOLE LIST](https://github.com/ethanlabs101/Retro-Fi/blob/main/console-list.md) for the full supported list.  
+Check out the [CONSOLE LIST](https://github.com/ethanlabs101/Retro-Fi/blob/main/retro-fi-mds/console-list.md) for the full supported list.  
 
 ⭐️ Favorites management  
 Automatic ROM *and save file symlinks* for smooth game launching.  
