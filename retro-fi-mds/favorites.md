@@ -62,13 +62,11 @@ The following consoles fully support favorites functionality:
 
 - This Displays all consoles as folders, and lets you select which consoles games you want to view.
 
-  ![favorites4](https://github.com/ethanlabs101/Retro-Fi/blob/main/retrofi-git-screenshots/favorites4.png)
-
 - Now that you have entered the favorites menu, select which rom you want added to the favorites list by number.
 
 - All boxarts, and saves transfer over as well to the favorites list.
 
- ![favorites5](https://github.com/ethanlabs101/Retro-Fi/blob/main/retrofi-git-screenshots/favorites5.png)
+ ![favorites4](https://github.com/ethanlabs101/Retro-Fi/blob/main/retrofi-git-screenshots/favorites4.png)
 
  - By selecting the final option you can delete favorites entries and save files individually, by group or wipe the entire folder.
    
