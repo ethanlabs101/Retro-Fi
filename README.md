@@ -251,7 +251,7 @@ Run:
 echo $PATH | grep -q "$HOME/.local/bin" && echo "PATH is OK" || echo "PATH missing ~/.local/bin"
 ```
 
-If you see ~/.local/bin skip to step 7 if not, continue step 6a.
+If you see PATH is OK skip to step 8 if not, continue step 7a.
 
 - 7a. Add the following snippet to your shell to fix PATH
 
