@@ -29,9 +29,11 @@ The following consoles fully support favorites functionality:
 ---
 
 ## 💡 Notes
- • Adding favorites for supported systems automatically creates symlinks in your favorites directory.
- • Recently played games follow the same restrictions.
- • Future updates may expand support to additional emulators and RetroArch cores.
+ - Adding favorites for supported systems automatically creates symlinks in your favorites directory.
+ - Recently played games follow the same restrictions.
+ - Future updates may expand support to additional emulators and RetroArch cores.
 
  ---
+
+## 📍 Update Favorites Helper Script
 
