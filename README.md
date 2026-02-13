@@ -143,11 +143,6 @@ mv ~/config ~/.config
 ```html
 mv ~/cache ~/.cache
 ```
-Then run this to inject custom backgrounds:
-
-```html
-sudo cp -r ~/usr/* /usr/
-```
 
 ---
 
@@ -186,6 +181,11 @@ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 ```html
 sudo mkdir -p /usr/share/rofi/themes/
 ```
+- Go to ~
+
+```html
+cd
+```
 
 - Move the main current background
 
@@ -193,7 +193,7 @@ sudo mkdir -p /usr/share/rofi/themes/
 sudo cp ~/retro-fi.png /usr/share/rofi/themes/
 ```
 
-- Copy all extra backgrounds & system icons
+- Copy all extra backgrounds
 
 ```html
 sudo cp -r ~/retro-fi-backgrounds /usr/share/rofi/themes
