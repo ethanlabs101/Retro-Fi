@@ -12,7 +12,7 @@ and readability. Check out the examples below, or import your own.
 
 |Type 1|
 |--|
-|![img](previews/launchers/type-1.gif)|
+|![img](https://github.com/ethanlabs101/Retro-Fi/blob/main/retro-fi-backgrounds/Controller.png)|
 
 </details>
 
