@@ -9,7 +9,7 @@
 ---
 
 ## Retro-Fi is a lightweight, fully-featured retro gaming launcher for Linux.
-## Manage your favorites, launch games across 30+ emulators, customize themes, and refresh box art - all from a sleek, native Linux, Rofi-powered interface.
+## Manage your favorites, launch games across 35+ Retro Systems, customize themes, and refresh box art - all from a sleek, native Linux, Rofi-powered interface.
 
 ---
 
@@ -123,11 +123,35 @@ sudo dnf install git
 git clone https://github.com/ethanlabs101/Retro-Fi.git ~
 ```
 
-> ⚠️ Retro-Fi expects the directory structure to match ~/Games/Console for full functionality.
+> ⚠️ Retro-Fi expects the directory structure to match for full functionality.
 
 ---
 
-## 3. Install system dependencies
+## 3. Rename / move folders
+
+Run the following commands:
+
+```html
+cd
+```
+```html
+mv ~/local ~/.local
+```
+```html
+mv ~/config ~/.config
+```
+```html
+mv ~/cache ~/.cache
+```
+Then run this to inject custom backgrounds:
+
+```html
+sudo cp -r ~/usr/* /usr/
+```
+
+---
+
+## 4. Install system dependencies
 
 - Arch
 
@@ -155,7 +179,7 @@ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 
 ---
 
-## 4. Add Rofi theme + backgrounds & system icons (Requires sudo)
+## 5. Add Rofi theme + backgrounds & system icons (Requires sudo)
 
 - Create the directory for the backgrounds/system icons if it doesnt exist
 
@@ -189,7 +213,7 @@ cp ~/retro-fi.rasi ~/.config/rofi/game-theme
 
 ---
 
-## 5. Make scripts executable
+## 6. Make scripts executable
 
 ```html
 chmod +x ~/.local/bin/retro-games
@@ -202,7 +226,7 @@ chmod +x ~/.local/bin/retrofi-boxart-refresh.sh
 
 ---
 
-## 6. Verify ~/.local/bin is in your PATH
+## 7. Verify ~/.local/bin is in your PATH
 
 Run:
 
@@ -212,7 +236,7 @@ echo $PATH | grep -q "$HOME/.local/bin" && echo "PATH is OK" || echo "PATH missi
 
 If you see ~/.local/bin skip to step 7 if not, continue step 6a.
 
-- 6a. Add the following snippet to your shell to fix PATH
+- 7a. Add the following snippet to your shell to fix PATH
 
 If your shell is Bash use:
 
@@ -238,7 +262,7 @@ source ~/.zshrc
 ```
 ---
 
-## 7. Install Emulators 🕹️
+## 8. Install Emulators 🕹️
 
 Retro-Fi does not automatically install emulators or cores.
 Some systems use:
@@ -249,15 +273,15 @@ Some systems use:
 
 ---
 
-## 8. Add your ROMs & Box Art
+## 9. Add your ROMs & Box Art
 
-- 8a. ROMs
+- 9a. ROMs
 
    - This launcher expects games to be stored in the ~/Games directory with a correctly named sub-folder for each system. 
    - Use the provided Game and console sub folders and add your roms to the correct folder.
    - Example: ~/Games/DS holds all the .nds Nintendo DS ROMs
 
-- 8b. Box art
+- 9b. Box art
 
 Box art images go in:
 
@@ -277,7 +301,7 @@ Alternatively, you can launch the script inside the Rofi menu by selecting the U
 
 ---
 
-## 9. First Launch and Testing
+## 10. First Launch and Testing
 
 Once all steps have been followed thoroughly run the command:
 
