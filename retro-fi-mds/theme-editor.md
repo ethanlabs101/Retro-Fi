@@ -53,4 +53,6 @@ modifying system files manually.
 
 ---
 
-## Links
+## 🔗 Links  
+- [Main README](https://github.com/ethanlabs101/Retro-Fi/tree/main) – Go back to the main page.  
+- [Favorites](https://github.com/ethanlabs101/Retro-Fi/blob/main/retro-fi-mds/favorites.md) – Favorites Menu & Compatibility.
