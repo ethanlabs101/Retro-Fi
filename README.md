@@ -23,6 +23,19 @@
 ![rofi-image3](https://github.com/ethanlabs101/Retro-Fi/blob/main/retrofi-git-screenshots/retrofi-gbamenu.png)
 
 ---
+
+## 🚀 Project Status
+
+# ✅ Fully installable from a fresh Linux system
+# ✅ Modular setup (emulators, themes, tools)
+# ✅ Clear step-by-step instructions
+# ✅ 40+ console setup supported
+# ✅ Active development
+
+Clone ⇨ Setup ⇨ Play.
+
+---
+
 ## Features 📋
 
 ✨ Easy plug-and-play setup  
