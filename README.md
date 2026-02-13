@@ -121,9 +121,9 @@ To run Retro-Fi, your system should have the following installed:
 ---
 
 > [!IMPORTANT]
-> # ⚠️ WARNING:  All scripts, assets, and caches rely on this explicit structure. 
-> # Cloning elsewhere may break Retro-Fi.
-> # Please read the documentation before running any setup scripts.
+> ## ⚠️ WARNING:  All scripts, assets, and caches rely on this explicit structure. 
+> ## Cloning elsewhere may break Retro-Fi.
+> ## Please read the documentation before running any setup scripts.
 
 ---
 
