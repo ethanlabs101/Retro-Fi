@@ -103,13 +103,46 @@ sudo pacman -S desmume
 > Note: Commands are tested on Arch Linux. If you are on another distribution, please use your package manager.
 
 ## GBA
-<!-- Fill in installation instructions here -->
+- Emulator - mGBA
+- BIOS - NO
+- Favorites Supported? - YES
+- Notes: Installed via Flatpak/Flathub
+- ROM Extensions: gba, zip
+
+Arch Installation
+ 
+```html
+flatpak install flathub io.mgba.mGBA
+```
+> Note: Commands are tested on Arch Linux. If you are on another distribution, please use your package manager.
 
 ## GBC
-<!-- Fill in installation instructions here -->
+- Emulator - mGBA
+- BIOS - NO
+- Favorites Supported? - YES
+- Notes: Installed via Flatpak/Flathub
+- ROM Extensions: gbc, zip
+
+Arch Installation
+ 
+```html
+flatpak install flathub io.mgba.mGBA
+```
+> Note: Commands are tested on Arch Linux. If you are on another distribution, please use your package manager.
 
 ## GB
-<!-- Fill in installation instructions here -->
+- Emulator - mGBA
+- BIOS - NO
+- Favorites Supported? - YES
+- Notes: Installed via Flatpak/Flathub
+- ROM Extensions: gb, zip
+
+Arch Installation
+ 
+```html
+flatpak install flathub io.mgba.mGBA
+```
+> Note: Commands are tested on Arch Linux. If you are on another distribution, please use your package manager.
 
 ## Sega Genesis
 <!-- Fill in installation instructions here -->
