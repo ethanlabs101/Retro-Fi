@@ -77,9 +77,6 @@ The following consoles fully support favorites functionality:
 ---
 
 🔗 Links  
-- [Main README](https://github.com/ethanlabs101/Retro-Fi/tree/main) – go back to the main page.
-- [Recently Played](https://github.com/ethanlabs101/Retro-Fi/tree/main) – go back to the main page.  
+- [Main README](https://github.com/ethanlabs101/Retro-Fi/tree/main) – Go back to the main page.
+- [Recently Played](https://github.com/ethanlabs101/Retro-Fi/blob/main/retro-fi-mds/recently-played.md) – Go to recenltly played page.
 
-
-
-   
