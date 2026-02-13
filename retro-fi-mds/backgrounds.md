@@ -88,7 +88,7 @@ and readability. Check out the examples below, or import your own.
 
 </details>
 
-To change your background read the [Theme Editor](https://github.com/ethanlabs101/Retro-Fi/blob/main/retro-fi-mds/theme-editor.md) tool md for instructions.
+To change your background read the [Theme Editor](https://github.com/ethanlabs101/Retro-Fi/blob/main/retro-fi-mds/theme-editor.md) tool .md for instructions.
 
 ---
 
