@@ -1,13 +1,5 @@
 # Retro-Fi 🎮 (Rofi + Retro Gaming Platform Launcher)
 
-__________        __                         ___________.__ 
-\______   \ _____/  |________  ____          \_   _____/|__|
- |       _// __ \   __\_  __ \/  _ \   ______ |    __)  |  |
- |    |   \  ___/|  |  |  | \(  <_> ) /_____/ |     \   |  |
- |____|_  /\___  >__|  |__|   \____/          \___  /   |__|
-        \/     \/                                 \/        
-
-
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 ![License](https://img.shields.io/badge/license-MIT-purple)
