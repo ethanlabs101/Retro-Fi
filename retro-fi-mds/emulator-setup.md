@@ -74,6 +74,8 @@ sudo pacman -S snes9x
 ```
 > Note: Commands are tested on Arch Linux. If you are on another distribution, please use your package manager.
 
+---
+
 ## NES
 - Emulator - fceux
 - BIOS - NO
@@ -87,6 +89,8 @@ Arch Installation
 sudo pacman -S fceux
 ```
 > Note: Commands are tested on Arch Linux. If you are on another distribution, please use your package manager.
+
+---
 
 ## Nintendo DS
 - Emulator - desmume
@@ -102,6 +106,8 @@ sudo pacman -S desmume
 ```
 > Note: Commands are tested on Arch Linux. If you are on another distribution, please use your package manager.
 
+---
+
 ## GBA
 - Emulator - mGBA
 - BIOS - NO
@@ -115,6 +121,8 @@ Arch Installation
 flatpak install flathub io.mgba.mGBA
 ```
 > Note: Commands are tested on Arch Linux. If you are on another distribution, please use your package manager.
+
+---
 
 ## GBC
 - Emulator - mGBA
@@ -130,6 +138,8 @@ flatpak install flathub io.mgba.mGBA
 ```
 > Note: Commands are tested on Arch Linux. If you are on another distribution, please use your package manager.
 
+---
+
 ## GB
 - Emulator - mGBA
 - BIOS - NO
@@ -144,8 +154,24 @@ flatpak install flathub io.mgba.mGBA
 ```
 > Note: Commands are tested on Arch Linux. If you are on another distribution, please use your package manager.
 
+---
+
 ## Sega Genesis
-<!-- Fill in installation instructions here -->
+- Emulator - RetroArch
+- Core - genesis_plus_gx_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed locally via package manager
+- ROM Extensions: gen, bin, md, zip
+
+Arch Installation
+ 
+```html
+sudo pacman -S libretro-genesis-plus-gx
+```
+> Note: Commands are tested on Arch Linux. If you are on another distribution, please use your package manager.
+
+---
 
 ## Sega Master System
 <!-- Fill in installation instructions here -->
