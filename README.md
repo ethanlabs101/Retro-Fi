@@ -209,6 +209,7 @@ chmod +x ~/.local/bin/rofi-theme-manager.sh
 chmod +x ~/.local/bin/run-favorites-update.sh
 chmod +x ~/.local/share/retro-games/favorites/retro-favorites-update.sh
 chmod +x ~/.local/bin/retrofi-boxart-refresh.sh
+chmod +x ~/.local/bin/run-boxart-upload.sh
 ```
 
 ---
