@@ -28,7 +28,7 @@
 
 ---
 
-# 🚀 Project Status: ✅ Active
+# [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=%F0%9F%9A%80+Project+Status%3A+%E2%9C%85+Active)](https://git.io/typing-svg)
 
  - ✅ Fully installable from a fresh Linux system
  - ✅ Modular setup (emulators, themes, tools)
