@@ -66,6 +66,8 @@ The following consoles fully support favorites functionality:
 
 - All boxarts, and saves transfer over as well to the favorites list.
 
+## Option 3 - Delete Favorites
+
  ![favorites4](https://github.com/ethanlabs101/Retro-Fi/blob/main/retrofi-git-screenshots/favorites4.png)
 
  - By selecting the final option you can delete favorites entries and save files individually, by group or wipe the entire folder.
