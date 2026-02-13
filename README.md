@@ -473,7 +473,7 @@ Keeps your favorites structured without duplicating ROM data.
 
 ---
 
-### 🖼 [Boxart Uploader](./docs/BOXART.md)
+### 🖼 [Boxart Uploader](https://github.com/ethanlabs101/Retro-Fi/blob/main/retro-fi-mds/boxart-upload.md)
 Refresh tool that:
 - Pulls images from ~/Pictures/retro-games
 - Updates RetroFi cache
