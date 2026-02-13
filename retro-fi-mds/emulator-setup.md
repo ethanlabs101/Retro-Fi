@@ -310,61 +310,329 @@ Installation
 ---
 
 ## Nintendo 64
-<!-- Fill in installation instructions here -->
+- Emulator - RetroArch
+- Core - parallel_n64_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed locally via package manager
+- ROM Extensions: n64, v64, z64 zip
+
+Arch Installation
+ 
+```html
+sudo pacman -S libretro-parallel-n64
+```
+> Note: Commands are tested on Arch Linux. If you are on another distribution, please use your package manager.
+
+---
 
 ## Mattel Intellivision
-<!-- Fill in installation instructions here -->
+- Emulator - RetroArch
+- Core - freeintv_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
+- ROM Extensions: int, rom, bin, zip
+
+Installation
+
+ 1. Click the build bot link and find the core named "freeintv_libretro.so"
+ 2. Download and extract the file 
+ 3. Move extracted .so file to /usr/lib/libretro/
+ 4. Done Retro-Fi will handle the rest.
+
+---
 
 ## Colecovision
-<!-- Fill in installation instructions here -->
+- Emulator - RetroArch
+- Core - bluemsx_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
+- ROM Extensions: col, rom, bin, zip
+
+Installation
+
+ 1. Click the build bot link and find the core named "bluemsx_libretro.so"
+ 2. Download and extract the file 
+ 3. Move extracted .so file to /usr/lib/libretro/
+ 4. Done Retro-Fi will handle the rest.
+
+---
 
 ## SNK Neo Geo Pocket
-<!-- Fill in installation instructions here -->
+- Emulator - RetroArch
+- Core - mednafen_ngp_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
+- ROM Extensions: ngc, ngp, zip
+
+Installation
+
+ 1. Click the build bot link and find the core named "mednafen_ngp_libretro.so"
+ 2. Download and extract the file 
+ 3. Move extracted .so file to /usr/lib/libretro/
+ 4. Done Retro-Fi will handle the rest.
+
+---
 
 ## SNK Neo Geo
-<!-- Fill in installation instructions here -->
+- Emulator - RetroArch
+- Core - fbneo_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
+- ROM Extensions: chd, zip
+
+Installation
+
+ 1. Click the build bot link and find the core named "fbneo_libretro.so"
+ 2. Download and extract the file 
+ 3. Move extracted .so file to /usr/lib/libretro/
+ 4. Done Retro-Fi will handle the rest.
+
+---
 
 ## Pokemon Mini
-<!-- Fill in installation instructions here -->
+- Emulator - RetroArch
+- Core - pokemini_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
+- ROM Extensions: pmm, min, zip
+
+Installation
+
+ 1. Click the build bot link and find the core named "pokemini_libretro.so"
+ 2. Download and extract the file 
+ 3. Move extracted .so file to /usr/lib/libretro/
+ 4. Done Retro-Fi will handle the rest.
+
+---
 
 ## Bandai Wonderswan
-<!-- Fill in installation instructions here -->
+- Emulator - RetroArch
+- Core - mednafen_wswan_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
+- ROM Extensions: ws, wsc, zip
+
+Installation
+
+ 1. Click the build bot link and find the core named "mednafen_wswan_libretro.so"
+ 2. Download and extract the file 
+ 3. Move extracted .so file to /usr/lib/libretro/
+ 4. Done Retro-Fi will handle the rest.
+
+---
 
 ## TurboGrafx-16
-<!-- Fill in installation instructions here -->
+- Emulator - RetroArch
+- Core - mednafen_pce_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
+- ROM Extensions: pce, vpc, cue, zip
+
+Installation
+
+ 1. Click the build bot link and find the core named "mednafen_pce_libretro.so"
+ 2. Download and extract the file 
+ 3. Move extracted .so file to /usr/lib/libretro/
+ 4. Done Retro-Fi will handle the rest.
+
+---
 
 ## CD-i
-<!-- Fill in installation instructions here -->
+- Experimental: May not function properly
+- Emulator - RetroArch
+- Core - same_cdi_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
+- ROM Extensions: cue, zip
+
+Installation
+
+ 1. Click the build bot link and find the core named "same_cdi_libretro.so"
+ 2. Download and extract the file 
+ 3. Move extracted .so file to /usr/lib/libretro/
+ 4. Done Retro-Fi will handle the rest.
+
+---
 
 ## Amstrad CPC
-<!-- Fill in installation instructions here -->
+- Emulator - RetroArch
+- Core - cap32_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
+- ROM Extensions: dsk, cdt, zip
+
+Installation
+
+ 1. Click the build bot link and find the core named "cap32_libretro.so"
+ 2. Download and extract the file 
+ 3. Move extracted .so file to /usr/lib/libretro/
+ 4. Done Retro-Fi will handle the rest.
+
+---
 
 ## SNK Neo Geo MVS
-<!-- Fill in installation instructions here -->
+- Emulator - RetroArch
+- Core - fbneo_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
+- ROM Extensions: zip
+
+Installation
+
+ 1. Click the build bot link and find the core named "fbneo_libretro.so"
+ 2. Download and extract the file 
+ 3. Move extracted .so file to /usr/lib/libretro/
+ 4. Done Retro-Fi will handle the rest.
+
+---
 
 ## Atari 2600
-<!-- Fill in installation instructions here -->
+- Emulator - RetroArch
+- Core - stella_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
+- ROM Extensions: a26, zip
+
+Installation
+
+ 1. Click the build bot link and find the core named "stella_libretro.so"
+ 2. Download and extract the file 
+ 3. Move extracted .so file to /usr/lib/libretro/
+ 4. Done Retro-Fi will handle the rest.
+
+---
 
 ## Atari 5200
-<!-- Fill in installation instructions here -->
+- Emulator - RetroArch
+- Core - a5200_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
+- ROM Extensions: a52, zip
+
+Installation
+
+ 1. Click the build bot link and find the core named "a5200_libretro.so"
+ 2. Download and extract the file 
+ 3. Move extracted .so file to /usr/lib/libretro/
+ 4. Done Retro-Fi will handle the rest.
+
+---
 
 ## Atari 7800
-<!-- Fill in installation instructions here -->
+- Emulator - RetroArch
+- Core - prosystem_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
+- ROM Extensions: bin, rom, zip
+
+Installation
+
+ 1. Click the build bot link and find the core named "prosystem_libretro.so"
+ 2. Download and extract the file 
+ 3. Move extracted .so file to /usr/lib/libretro/
+ 4. Done Retro-Fi will handle the rest.
+
+---
 
 ## Atari Lynx
-<!-- Fill in installation instructions here -->
+- Emulator - RetroArch
+- Core - handy_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
+- ROM Extensions: lyx, zip
+
+Installation
+
+ 1. Click the build bot link and find the core named "handy_libretro.so"
+ 2. Download and extract the file 
+ 3. Move extracted .so file to /usr/lib/libretro/
+ 4. Done Retro-Fi will handle the rest.
+
+---
 
 ## Atari Jaguar
-<!-- Fill in installation instructions here -->
+- Emulator - RetroArch
+- Core - virtualjaguar_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
+- ROM Extensions: j64, zip
+
+Installation
+
+ 1. Click the build bot link and find the core named "virtualjaguar_libretro.so"
+ 2. Download and extract the file 
+ 3. Move extracted .so file to /usr/lib/libretro/
+ 4. Done Retro-Fi will handle the rest.
+
+---
 
 ## Atari Jaguar-CD
-<!-- Fill in installation instructions here -->
+- Experimental - Currently not functioning properly
+- Emulator - RetroArch
+- Core - virtualjaguar_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
+- ROM Extensions: cue, zip
+
+Installation
+
+ 1. Click the build bot link and find the core named "virtualjaguar_libretro.so"
+ 2. Download and extract the file 
+ 3. Move extracted .so file to /usr/lib/libretro/
+ 4. Done Retro-Fi will handle the rest.
+
+---
 
 ## Nintendo Virtual Boy
-<!-- Fill in installation instructions here -->
+- Emulator - RetroArch
+- Core - mednafen_vb_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
+- ROM Extensions: vb, zip
+
+Installation
+
+ 1. Click the build bot link and find the core named "mednafen_vb_libretro.so"
+ 2. Download and extract the file 
+ 3. Move extracted .so file to /usr/lib/libretro/
+ 4. Done Retro-Fi will handle the rest.
+
+---
 
 ## Commodore 64
-<!-- Fill in installation instructions here -->
+- Emulator - RetroArch
+- Core - vice_x64_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
+- ROM Extensions: d64, tap, prg, zip
+
+Installation
+
+ 1. Click the build bot link and find the core named "vice_x64_libretro.so"
+ 2. Download and extract the file 
+ 3. Move extracted .so file to /usr/lib/libretro/
+ 4. Done Retro-Fi will handle the rest.
+
+---
 
 ## PlayStation 2
 <!-- Fill in installation instructions here -->
@@ -378,7 +646,7 @@ Installation
 ## GameCube
 <!-- Fill in installation instructions here -->
 
-## Nintendo Wii
+## Nintendo Wii2
 <!-- Fill in installation instructions here -->
 
 ## Nintendo 3DS
