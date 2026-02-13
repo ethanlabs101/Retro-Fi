@@ -384,7 +384,7 @@ Some systems have limitations.
 [View Favorites Compatibility →](https://github.com/ethanlabs101/Retro-Fi/blob/main/retro-fi-mds/favorites.md)
 
 ➡️ Recently Played behavior details:  
-[View Recently Played Info →](./docs/RECENTLY_PLAYED.md)
+[View Recently Played Info →](https://github.com/ethanlabs101/Retro-Fi/blob/main/retro-fi-mds/recently-played.md)
 
 ---
 
