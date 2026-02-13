@@ -392,7 +392,7 @@ Some systems have limitations.
 
 RetroFi ships modular. Each component can be customized independently.
 
-### 🖌 [Theme Editor](./docs/THEME_EDITOR.md)
+### 🖌 [Theme Editor](https://github.com/ethanlabs101/Retro-Fi/blob/main/retro-fi-mds/theme-editor.md)
 Interactive helper script that allows:
 - Background switching
 - Text color adjustments
