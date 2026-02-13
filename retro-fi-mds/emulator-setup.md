@@ -293,7 +293,21 @@ sudo pacman -S libretro-flycast
 ---
 
 ## PlayStation 1
-<!-- Fill in installation instructions here -->
+- Emulator - RetroArch
+- Core - mednafen_psx_libretro.so
+- BIOS - NO
+- Favorites Supported? - NO
+- Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
+- ROM Extensions: cue, iso, zip
+
+Installation
+
+- 1. Click the build bot link and find the core named "mednafen_psx_libretro.so"
+- 2. Download and extract the file 
+- 3. Move extracted .so file to /usr/lib/libretro/
+- 4. Done Retro-Fi will handle the rest.
+
+---
 
 ## Nintendo 64
 <!-- Fill in installation instructions here -->
