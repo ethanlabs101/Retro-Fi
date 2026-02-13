@@ -35,7 +35,7 @@
  - ✅ 40+ console setup supported
  - ✅ Active development
 
-## Clone ⇨ Setup ⇨ Play.
+## [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Clone+%E2%87%A8+Setup+%E2%87%A8+Play.)](https://git.io/typing-svg)
 
 ---
 
