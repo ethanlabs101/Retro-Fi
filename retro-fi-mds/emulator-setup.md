@@ -635,13 +635,53 @@ Installation
 ---
 
 ## PlayStation 2
-<!-- Fill in installation instructions here -->
+- Emulator - pcsx2
+- BIOS - YES
+- Favorites Supported? - YES
+- Notes: Installed via Flatpak/Flathub
+- ROM Extensions: iso, zip
+
+Arch Installation
+ 
+```html
+flatpak install flathub net.pcsx2.PCSX2
+```
+> Note: Commands are tested on Arch Linux. If you are on another distribution, please use your package manager.
+
+---
 
 ## Xbox
-<!-- Fill in installation instructions here -->
+- Emulator - xemu
+- BIOS - YES
+- Favorites Supported? - NO
+- Notes: Installed via Flatpak/Flathub
+- Extra Notes: XBOX Requires additional files See [Xemu](https://xemu.app/docs/required-files/) for more.
+- ROM Extensions: none (XBOX CAN ONLY LAUNCH EMULATOR NOT INDIVIDUAL GAMES DUE TO XEMU/XBOX ARCHITECTURE)
+
+Arch Installation
+ 
+```html
+flatpak install flathub app.xemu.xemu
+```
+> Note: Commands are tested on Arch Linux. If you are on another distribution, please use your package manager.
+
+---
 
 ## PSP
-<!-- Fill in installation instructions here -->
+- Emulator - ppsspp
+- BIOS - YES
+- Favorites Supported? - NO
+- Notes: Installed via Flatpak/Flathub
+- ROM Extensions: iso, cso, pbp, zip
+
+Arch Installation
+ 
+```html
+flatpak install flathub org.ppsspp.PPSSPP
+```
+> Note: Commands are tested on Arch Linux. If you are on another distribution, please use your package manager.
+
+---
 
 ## GameCube
 <!-- Fill in installation instructions here -->
