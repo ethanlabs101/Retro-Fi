@@ -159,7 +159,7 @@ flatpak install flathub io.mgba.mGBA
 ## Sega Genesis
 - Emulator - RetroArch
 - Core - genesis_plus_gx_libretro.so
-- BIOS - NO
+- BIOS - Optional
 - Favorites Supported? - NO
 - Notes: Installed locally via package manager
 - ROM Extensions: gen, bin, md, zip
@@ -176,7 +176,7 @@ sudo pacman -S libretro-genesis-plus-gx
 ## Sega Master System
 - Emulator - RetroArch
 - Core - genesis_plus_gx_libretro.so
-- BIOS - NO
+- BIOS - Optional
 - Favorites Supported? - NO
 - Notes: Installed locally via package manager
 - ROM Extensions: sms, zip
@@ -227,7 +227,7 @@ sudo pacman -S libretro-genesis-plus-gx
 ## Sega-CD
 - Emulator - RetroArch
 - Core - picodrive_libretro.so
-- BIOS - NO
+- BIOS - YES
 - Favorites Supported? - NO
 - Notes: Installed locally via package manager
 - ROM Extensions: cue, iso, zip
@@ -261,7 +261,7 @@ sudo pacman -S libretro-picodrive
 ## Sega Saturn
 - Emulator - RetroArch
 - Core - yabause_libretro.so
-- BIOS - NO
+- BIOS - YES
 - Favorites Supported? - NO
 - Notes: Installed locally via package manager
 - ROM Extensions: cue, iso, zip
@@ -278,7 +278,7 @@ sudo pacman -S libretro-yabause
 ## Sega Dreamcast
 - Emulator - RetroArch
 - Core - flycast_libretro.so
-- BIOS - NO
+- BIOS - Optional
 - Favorites Supported? - NO
 - Notes: Installed locally via package manager
 - ROM Extensions: cue, iso, zip
@@ -295,7 +295,7 @@ sudo pacman -S libretro-flycast
 ## PlayStation 1
 - Emulator - RetroArch
 - Core - mednafen_psx_libretro.so
-- BIOS - NO
+- BIOS - YES
 - Favorites Supported? - NO
 - Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
 - ROM Extensions: cue, iso, zip
@@ -329,7 +329,7 @@ sudo pacman -S libretro-parallel-n64
 ## Mattel Intellivision
 - Emulator - RetroArch
 - Core - freeintv_libretro.so
-- BIOS - NO
+- BIOS - YES
 - Favorites Supported? - NO
 - Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
 - ROM Extensions: int, rom, bin, zip
@@ -346,7 +346,7 @@ Installation
 ## Colecovision
 - Emulator - RetroArch
 - Core - bluemsx_libretro.so
-- BIOS - NO
+- BIOS - YES
 - Favorites Supported? - NO
 - Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
 - ROM Extensions: col, rom, bin, zip
@@ -380,7 +380,7 @@ Installation
 ## SNK Neo Geo
 - Emulator - RetroArch
 - Core - fbneo_libretro.so
-- BIOS - NO
+- BIOS - YES
 - Favorites Supported? - NO
 - Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
 - ROM Extensions: chd, zip
@@ -397,7 +397,7 @@ Installation
 ## Pokemon Mini
 - Emulator - RetroArch
 - Core - pokemini_libretro.so
-- BIOS - NO
+- BIOS - Optional
 - Favorites Supported? - NO
 - Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
 - ROM Extensions: pmm, min, zip
@@ -414,7 +414,7 @@ Installation
 ## Bandai Wonderswan
 - Emulator - RetroArch
 - Core - mednafen_wswan_libretro.so
-- BIOS - NO
+- BIOS - Optional
 - Favorites Supported? - NO
 - Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
 - ROM Extensions: ws, wsc, zip
@@ -431,7 +431,7 @@ Installation
 ## TurboGrafx-16
 - Emulator - RetroArch
 - Core - mednafen_pce_libretro.so
-- BIOS - NO
+- BIOS - YES
 - Favorites Supported? - NO
 - Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
 - ROM Extensions: pce, vpc, cue, zip
@@ -449,7 +449,7 @@ Installation
 - Experimental: May not function properly
 - Emulator - RetroArch
 - Core - same_cdi_libretro.so
-- BIOS - NO
+- BIOS - YES/Firmware
 - Favorites Supported? - NO
 - Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
 - ROM Extensions: cue, zip
@@ -466,7 +466,7 @@ Installation
 ## Amstrad CPC
 - Emulator - RetroArch
 - Core - cap32_libretro.so
-- BIOS - NO
+- BIOS - Optional
 - Favorites Supported? - NO
 - Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
 - ROM Extensions: dsk, cdt, zip
@@ -483,7 +483,7 @@ Installation
 ## SNK Neo Geo MVS
 - Emulator - RetroArch
 - Core - fbneo_libretro.so
-- BIOS - NO
+- BIOS - YES
 - Favorites Supported? - NO
 - Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
 - ROM Extensions: zip
@@ -517,7 +517,7 @@ Installation
 ## Atari 5200
 - Emulator - RetroArch
 - Core - a5200_libretro.so
-- BIOS - NO
+- BIOS - YES
 - Favorites Supported? - NO
 - Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
 - ROM Extensions: a52, zip
@@ -534,7 +534,7 @@ Installation
 ## Atari 7800
 - Emulator - RetroArch
 - Core - prosystem_libretro.so
-- BIOS - NO
+- BIOS - Optional
 - Favorites Supported? - NO
 - Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
 - ROM Extensions: bin, rom, zip
@@ -551,7 +551,7 @@ Installation
 ## Atari Lynx
 - Emulator - RetroArch
 - Core - handy_libretro.so
-- BIOS - NO
+- BIOS - YES
 - Favorites Supported? - NO
 - Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
 - ROM Extensions: lyx, zip
@@ -568,7 +568,7 @@ Installation
 ## Atari Jaguar
 - Emulator - RetroArch
 - Core - virtualjaguar_libretro.so
-- BIOS - NO
+- BIOS - Optional
 - Favorites Supported? - NO
 - Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
 - ROM Extensions: j64, zip
@@ -586,7 +586,7 @@ Installation
 - Experimental - Currently not functioning properly
 - Emulator - RetroArch
 - Core - virtualjaguar_libretro.so
-- BIOS - NO
+- BIOS - YES
 - Favorites Supported? - NO
 - Notes: Installed via [buildbot](https://buildbot.libretro.com/nightly/linux/x86_64/latest/)
 - ROM Extensions: cue, zip
@@ -669,7 +669,7 @@ flatpak install flathub app.xemu.xemu
 
 ## PSP
 - Emulator - ppsspp
-- BIOS - YES
+- BIOS - Optional
 - Favorites Supported? - NO
 - Notes: Installed via Flatpak/Flathub
 - ROM Extensions: iso, cso, pbp, zip
@@ -686,7 +686,7 @@ flatpak install flathub org.ppsspp.PPSSPP
 ## GameCube
 <!-- Fill in installation instructions here -->
 
-## Nintendo Wii2
+## Nintendo Wii
 <!-- Fill in installation instructions here -->
 
 ## Nintendo 3DS
