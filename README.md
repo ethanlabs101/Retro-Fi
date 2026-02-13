@@ -26,11 +26,11 @@
 
 # 🚀 Project Status: ✅ Active
 
- ✅ Fully installable from a fresh Linux system
- ✅ Modular setup (emulators, themes, tools)
- ✅ Clear step-by-step instructions
- ✅ 40+ console setup supported
- ✅ Active development
+ - ✅ Fully installable from a fresh Linux system
+ - ✅ Modular setup (emulators, themes, tools)
+ - ✅ Clear step-by-step instructions
+ - ✅ 40+ console setup supported
+ - ✅ Active development
 
 ## Clone ⇨ Setup ⇨ Play.
 
