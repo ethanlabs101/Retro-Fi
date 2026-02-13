@@ -172,6 +172,12 @@ rsync -av ~/retro-fi-tmp/config/ ~/.config/
 ```html
 rsync -av ~/retro-fi-tmp/cache/ ~/.cache/
 ```
+```html
+rsync -av ~/retro-fi-tmp/Pictures/ ~/Pictures/
+```
+```html
+rsync -av ~/retro-fi-tmp/Games/ ~/Games/
+```
 
 ---
 
