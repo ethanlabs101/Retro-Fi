@@ -304,10 +304,10 @@ Box art images go in:
 
 `~/Pictures/retro-games`
 
-Then run the boxart uploader script:
+Then run the boxart uploader script using the command:
 
 ```html
-./retrofi-boxart-refresh.sh
+retrofi-boxart-refresh.sh
 ```
 
 Alternatively, you can launch the script inside the Rofi menu by selecting the Upload Boxart option.
