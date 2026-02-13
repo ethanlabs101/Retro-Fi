@@ -43,5 +43,7 @@ The following consoles fully support favorites functionality:
 
 - You can launch via the Update Favorites option in the rofi meny, alternatively you can launch it using the command:
   ```html
-  run-favorites-update.sh```
+  run-favorites-update.sh
+  ```
+  
 
