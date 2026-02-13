@@ -463,7 +463,7 @@ You can add your own PNG files and select them using the Theme Editor.
 
 ---
 
-### ⭐️ [Favorites Updater](./docs/FAVORITES.md)
+### ⭐️ [Favorites Updater](https://github.com/ethanlabs101/Retro-Fi/blob/main/retro-fi-mds/favorites.md)
 Manages:
 - Favorites list generation
 - ROM symlink creation
