@@ -4,7 +4,12 @@
 FAVORITES_UPDATER="$HOME/.local/share/retro-games/favorites/retro-favorites-update.sh"
 
 # Detect a usable terminal
-TERM_CMD=$(command -v gnome-terminal  command -v konsole  command -v xfce4-terminal || command -v xterm)
+for term in gnome-terminal konsole xfce4-terminal i3-sensible-terminal; do
+    if command -v "$term" >/dev/null 2>&1; then
+        TERM_CMD="$term"
+        break
+    fi
+done
 
 # Fallback to xterm
 [[ -z "$TERM_CMD" ]] && TERM_CMD="xterm"
