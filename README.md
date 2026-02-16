@@ -275,8 +275,12 @@ Then paste this at the end of the file
 
 ```html
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
-source ~/.bashrc
 ```
+Then in terminal run:
+```html
+source ~/.zshrc
+```
+
 If your shell is Zsh use:
 
 ```html
@@ -286,6 +290,9 @@ Then paste this at the end of the file
 
 ```html
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.zshrc
+```
+Then in terminal run:
+```html
 source ~/.zshrc
 ```
 ---
