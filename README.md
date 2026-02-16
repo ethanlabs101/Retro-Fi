@@ -66,7 +66,7 @@ Keeps your library organized and clean.
 🎨 Custom `.rasi` Rofi theme  
 Designed for Retro-Fi, fully included.  
 
-🖥️ 5x4 transparent grid layout  
+🖥️ Transparent grid layout
 Displays *box arts & game descriptions* in a visually appealing way.  
 
 🔍 Per-system and per-game search method  
