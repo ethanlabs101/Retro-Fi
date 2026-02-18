@@ -169,19 +169,19 @@ Run the following commands:
 cd ~/retro-fi-tmp
 ```
 ```html
-rsync -av ~/retro-fi-tmp/local/ ~/.local/
+sudo rsync -av ~/retro-fi-tmp/local/ ~/.local/
 ```
 ```html
-rsync -av ~/retro-fi-tmp/config/ ~/.config/
+sudo rsync -av ~/retro-fi-tmp/config/ ~/.config/
 ```
 ```html
-rsync -av ~/retro-fi-tmp/cache/ ~/.cache/
+sudo rsync -av ~/retro-fi-tmp/cache/ ~/.cache/
 ```
 ```html
-rsync -av ~/retro-fi-tmp/Pictures/ ~/Pictures/
+sudo rsync -av ~/retro-fi-tmp/Pictures/ ~/Pictures/
 ```
 ```html
-rsync -av ~/retro-fi-tmp/Games/ ~/Games/
+sudo rsync -av ~/retro-fi-tmp/Games/ ~/Games/
 ```
 
 ---
