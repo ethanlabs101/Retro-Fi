@@ -105,7 +105,7 @@ To run Retro-Fi, your system should have the following installed:
 - Flatpak – for certain emulators and runtime support
 - Flathub - via flatpak to be able to install emulators
 - RetroArch – for multi-system emulation support  
-
+- Xfce4-Terminal - Optional for script readability
 ### Optional / System Emulators
 - Various retro emulators are optional and depend on which consoles you want to use:  
   - Some are installed via your terminal package manager (apt, pacman, etc.).  
@@ -210,6 +210,14 @@ sudo dnf install rofi flatpak retroarch
 
 ```html
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+```
+
+- Xfce4-terminal (Optional for script readability - use your distros package manager)
+
+- (Arch)
+
+```html
+sudo pacman -S xfce4-terminal
 ```
 
 ---
