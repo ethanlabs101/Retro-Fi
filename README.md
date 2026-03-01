@@ -151,7 +151,7 @@ sudo dnf install git rsync
 
 ---
 
-## 2. Clone this repository directly to your home directory
+## 2. Clone this repository
 
 ```html
 git clone https://github.com/ethanlabs101/Retro-Fi.git ~/retro-fi-tmp
@@ -286,7 +286,7 @@ echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
 ```
 Then in terminal run:
 ```html
-source ~/.zshrc
+source ~/.bashrc
 ```
 
 If your shell is Zsh use:
