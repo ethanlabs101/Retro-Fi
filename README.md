@@ -303,6 +303,8 @@ Then in terminal run:
 ```html
 source ~/.zshrc
 ```
+
+> Make sure to open a new terminal after the source command then repeat the command from step 7 to check that paths are correct.
 ---
 
 ## 8. Install Emulators 🕹️
