@@ -16,5 +16,4 @@ Support may vary depending on how the emulator is installed and launched.
 
 ## 🔗 Links  
 - [Main README](https://github.com/ethanlabs101/Retro-Fi/tree/main) – go back to the main page.  
-- []() – 
 
