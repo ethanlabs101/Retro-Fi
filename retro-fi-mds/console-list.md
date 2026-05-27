@@ -2,8 +2,48 @@
 
 Retro-Fi currently supports the following consoles:
 
-SNES, NES, Nintendo DS, GBA, GBC, GB, Sega Genesis, Sega Master System, Sega GameGear, Sega SG-1000, Sega-CD, Sega 32X, Sega Saturn, Sega Dreamcast, PlayStation 1, Nintendo 64, Mattel Intellivision, Colecovision, SNK Neo Geo Pocket, SNK Neo Geo, Pokemon Mini, Bandai Wonderswan, TurboGrafx-16, CD-i, Amstrad CPC, SNK Neo Geo MVS, Atari 2600, Atari 5200, Atari 7800, Atari Lynx, Atari Jaguar, Atari Jaguar-CD, Nintendo Virtual Boy, Commodore 64, PlayStation 2, Xbox, PSP, GameCube, Nintendo Wii, Nintendo 3DS
-
+````md
+1. SNES
+2. NES
+3. Nintendo DS
+4. GBA
+5. GBC
+6. Gameboy
+7. Sega Genesis
+8. Sega Master System
+9. Sega GameGear
+10. Sega SG-1000
+11. Sega-CD
+12. Sega 32X
+13. Sega Saturn
+14. Sega Dreamcast
+15. Playstation 1
+16. Nintendo 64
+17. Mattel Intellivision
+18. Colecovision
+19. SNK Neo Geo Pocket
+20. SNK Neo Geo
+21. Pokemon Mini
+22. Bandai Wonderswan
+23. TurboGrafx-16
+24. CD-i (Experimental)
+25. Amstrad CPC
+26. SNK Neo Geo MVS
+27. Atari 2600
+28. Atari 5200
+29. Atari 7800
+30. Atari Lynx
+31. Atari Jaguar
+32. Atari Jaguar CD (Experimental)
+33. Nintendo Virtual Boy
+34. Commodore 64
+35. Playstation 2
+36. XBOX
+37. PSP
+38. GameCube
+39. Nintendo Wii
+40. Nintendo 3DS
+````
 ---
 
 ### ⚠️ Notes & Warnings
