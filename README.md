@@ -2,14 +2,6 @@
 
 [Features](https://github.com/ethanlabs101/Retro-Fi/tree/main#features-)  •  [Legal Notice](https://github.com/ethanlabs101/Retro-Fi/tree/main#legal-notice-%EF%B8%8F)
 
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-
-![License](https://img.shields.io/badge/license-MIT-purple)
-![Linux](https://img.shields.io/badge/platform-Linux-red)
-![Version](https://img.shields.io/badge/version-1.1.0-blue)
-![Status](https://img.shields.io/badge/status-active-success)
-
-
 ---
 
 ### ***Installer script coming soon!***
