@@ -1,6 +1,6 @@
 ![Retro-Fi Banner](https://github.com/ethanlabs101/Retro-Fi/blob/main/retrofi-git-screenshots/retro-fi.png)
 
-[Features](https://github.com/ethanlabs101/Retro-Fi/tree/main#features-)  •  [Legal Notice]()
+[Features](https://github.com/ethanlabs101/Retro-Fi/tree/main#features-)  •  [Legal Notice](https://github.com/ethanlabs101/Retro-Fi/tree/main#legal-notice-%EF%B8%8F)
 
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
