@@ -4,11 +4,10 @@
 
 ---
 
-### ***Installer script coming soon!***
-## Retro-Fi is a lightweight, fully-featured retro gaming launcher for Linux.
-## Manage your favorites, launch games across 35+ Retro Systems, customize themes, and refresh box art - all from a sleek, native Linux, Rofi-powered interface.
-## [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=%F0%9F%8E%89+Launched+2%2F13%2F2026+)](https://git.io/typing-svg)
-## [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Clone+%E2%87%A8+Setup+%E2%87%A8+Play.)](https://git.io/typing-svg)
+### Retro-Fi is a lightweight, fully-featured retro gaming launcher for Linux.
+### Manage your favorites, launch games across 35+ Retro Systems, customize themes, and refresh box art - all from a sleek, native Linux, Rofi-powered interface.
+### [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=%F0%9F%8E%89+Launched+2%2F13%2F2026+)](https://git.io/typing-svg)
+### [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=Clone+%E2%87%A8+Setup+%E2%87%A8+Play.)](https://git.io/typing-svg)
 
 ---
 
@@ -120,6 +119,8 @@ To run Retro-Fi, your system should have the following installed:
 ---
 
 # Installation ⚡
+
+### ***Installer script coming soon!***
 
 ---
 
