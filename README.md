@@ -1,4 +1,4 @@
-# Retro-Fi 🎮 (Rofi + Retro Gaming Platform Launcher)
+![Retro-Fi Banner](https://github.com/ethanlabs101/Retro-Fi/blob/main/retrofi-git-screenshots/retro-fi.png)
 
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
