@@ -123,6 +123,7 @@ To run Retro-Fi, your system should have the following installed:
 # Installation ⚡
 
 ### ***Installer script coming soon!***
+### Edit: 9/23 - Script + More organized documentation system coming next after neowave lua is finished.
 
 ---
 
